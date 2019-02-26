@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="54" y="54" />
+        <Position x="138" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -38,7 +38,7 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="54" y="150" />
+        <Position x="138" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -102,7 +102,7 @@
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
-        <Position x="210" y="150" />
+        <Position x="294" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -125,8 +125,8 @@
               <OrderChanged value="False" />
               <CommaDecimal value="False" />
               <SelectFields>
-                <SelectField field="Input_#2_City" selected="True" rename="Input_#2_City" />
-                <SelectField field="Input_#3_City" selected="True" rename="Input_#3_City" />
+                <SelectField field="Input_#2_City" selected="False" rename="Input_#2_City" />
+                <SelectField field="Input_#3_City" selected="False" rename="Input_#3_City" />
                 <SelectField field="Input_#3_Sport" selected="True" rename="Input_#3_Sport" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
@@ -143,7 +143,7 @@
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
-        <Position x="54" y="246" />
+        <Position x="138" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -198,11 +198,11 @@
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="306" y="150" />
+        <Position x="390" y="150" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\kpen002\AppData\Local\Temp\Engine_5132_dcaee14ba5964f068a6db9f8e5b57742_\Engine_6176_baa290b394ec4efc8269451fb165ca00_.yxdb</TempFile>
+          <TempFile>C:\Users\kpen002\AppData\Local\Temp\Engine_8324_1503f29817314ac4bbaa11ec187fda0a_\Engine_2752_6561c503523f47d9974d6f68c213247e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -223,6 +223,66 @@
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="42" y="78" width="88" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dataset 1</Text>
+          <Font name="Segoe UI" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="42" y="174" width="88" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dataset 2</Text>
+          <Font name="Segoe UI" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="42" y="270" width="88" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dataset 3</Text>
+          <Font name="Segoe UI" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
     </Node>
   </Nodes>
   <Connections>
